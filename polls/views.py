@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponseRedirect, HttpResponse
 from django.template import loader
-from django.urls import reverse
+from django.core.urlresolvers import reverse
 from .models import Question, Choice
 
 # Create your views here.
